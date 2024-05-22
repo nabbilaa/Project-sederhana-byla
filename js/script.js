@@ -1,8 +1,8 @@
 // Toggle class active
-const navbarNav = document.querySelector ('.navbar-nav');
+const navbarNav = document.querySelector('.navbar-nav');
 
 //ketika menu di klik
-document.querySelector('#menu-socmed'). onclick = () => {
+document.querySelector('#menu-socmed').onclick = () => {
     navbarNav.classList.toggle('active');
 };
 
@@ -10,7 +10,7 @@ document.querySelector('#menu-socmed'). onclick = () => {
 const menu = document.querySelector('#menu-socmed');
 
 document.addEventListener('click', function (e) {
-    if (!menu.contains(e.target) && !navbarNav.contains(e.target)) {       
+    if (!menu.contains(e.target) && !navbarNav.contains(e.target)) {
         navbarNav.classList.remove('active');
     }
 });
