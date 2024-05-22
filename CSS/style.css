@@ -175,7 +175,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.about.row.content p {
+.about .row .content p {
     margin-bottom: 0.8rem;
     font-size: 1.4rem;
     font-weight: 2;
@@ -192,6 +192,12 @@ body {
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
+}
+
+.menu p {
+    text-align: center;
+
+    max-width: 30rem;
 }
 
 
