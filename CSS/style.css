@@ -140,7 +140,7 @@ body {
 
 .about h2 {
     text-align: center;
-    font-size: 2.6rem;
+    font-size: 2.7rem;
     margin-bottom: 3rem;
 }
 
@@ -151,9 +151,9 @@ body {
 }
 
 .about .row .about-img {
-    flex: 0 0 30%;
+    flex: 0 0 40%;
     /* Merubah ukuran gambar */
-    margin-right: 2rem;
+    margin-right: 4rem;
     /* Mengurangi jarak antara gambar dan teks */
 }
 
@@ -175,7 +175,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.about .row .content p {
+.about.row.content p {
     margin-bottom: 0.8rem;
     font-size: 1.4rem;
     font-weight: 2;
@@ -193,6 +193,7 @@ body {
     font-size: 2.6rem;
     margin-bottom: 3rem;
 }
+
 
 /* Media Queries */
 
